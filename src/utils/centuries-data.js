@@ -1,4 +1,4 @@
-export const Data = {
+export const CenturiesData = {
     centuries : [ 
         {
             id : 1,

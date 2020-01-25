@@ -45,3 +45,20 @@ function f() {
 }
 
 f();
+
+y = [];
+x= [];
+z = [];
+document.querySelectorAll('div[id="mw-pages"] > div > div > div > ul > li').forEach(cat => {
+    y.push(cat.innerText)
+});
+document.querySelectorAll('div.CategoryTreeItem > a').forEach(cat => {
+    x.push(cat.innerText)
+});
+
+
+document.querySelectorAll('div[id="mw-pages"] > div> ul > li> a').forEach(cat => {
+    z.push(cat.innerText)
+});
+console.log(x)
+console.log(y)

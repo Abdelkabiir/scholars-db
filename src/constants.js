@@ -4,3 +4,8 @@ export const ConnectionParams = {
     // DataBaseName : 'net-pass',
     DataBaseName : 'isdb'
 }
+
+export const CollectionNames = {
+    CenturyDetails: 'century-details',
+    SubCategoryDetails: 'sub-category-details'
+};
