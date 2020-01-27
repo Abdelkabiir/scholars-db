@@ -7,5 +7,6 @@ export const ConnectionParams = {
 
 export const CollectionNames = {
     CenturyDetails: 'century-details',
-    SubCategoryDetails: 'sub-category-details'
+    SubCategoryDetails: 'sub-category-details',
+    Schloars: 'scholars'
 };
