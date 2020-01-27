@@ -10,9 +10,7 @@ export async function updateCollection(collection, data) {
 export async function multipleUpdateCollection(collection, data) {
     const {client, db} = await mongoDB();
     await data.forEach(element => {
-        db.collection(collection).insertOne({
-            element
-        })
+        db.collection(collection).insertOne(element)
     })
     client && client.close()
 }
